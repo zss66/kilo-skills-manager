@@ -1,0 +1,33 @@
+{
+  "name": "kilo-skills-manager",
+  "version": "1.0.0",
+  "description": "交互式 Skills 管理工具，为 Kilo CLI 设计。支持搜索、浏览和安装 1320+ skills。",
+  "bin": {
+    "kilo-skills": "./skills-manager.js",
+    "skills-manager": "./skills-manager.js"
+  },
+  "main": "skills-manager.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node skills-manager.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "kilo",
+    "skills",
+    "ai",
+    "agents",
+    "cli",
+    "interactive"
+  ],
+  "author": "ZHANG",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/kilo-skills-manager"
+  },
+  "preferGlobal": true
+}
